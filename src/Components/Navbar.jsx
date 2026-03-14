@@ -14,6 +14,7 @@ const Navbar = () => {
                     
                    <li><NavLink to={'/otp'}>OTP Validation</NavLink></li>
                      <li><NavLink  to={'/password'}>Password Validation</NavLink></li>
+                     <li><NavLink  to={'/movies'}>Movies Center</NavLink></li>
                 </ul>
             </div>
       </nav>

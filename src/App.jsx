@@ -4,6 +4,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import OTP from './Components/OTP'
 import { ToastContainer } from 'react-toastify'
 import PasswordValidation from './Components/PasswordValidation'
+import MoviesHub from './Movies/Components/MoviesHub'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route element={<OTP />} path='/otp' />
         <Route element={<PasswordValidation />} path='/password' />
+        <Route element={<MoviesHub />} path='/movies' />
         <Route element={<Navbar />} path='/' />
       </Routes>
 
